@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+}
+
+.nav_list {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0 0 ;
+  padding: 0 5px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.nav_list > .logo {
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  font-size: 2rem;
+  color: rgb(76, 76, 235);
+  font-weight: 900;
+}
+
+.nav_list > .logo > span {
+  background: rgb(76, 76, 235);
+  color: white;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+.nav_list > .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_list > .items > span {
+  margin-top: 5px;
+  font-size: 13px;
+  color: rgb(116, 116, 116);
+}
+
+.nav_list > .items-n {
+  padding-right: 30px;
+  border-right: solid rgb(116, 116, 116) 1.5px;
+}
+
+.nav_list > .btn {
+  font-weight: 540;
+  padding: 12px 18px;
+  border-radius: 30px;
+}
+
+.nav_list > .btn:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.nav_list > .btn-sign {
+  color: rgb(76, 76, 235);
+  font-weight: 540;
+  padding: 12px 18px;
+  border-radius: 30px;
+  border: solid rgb(76, 76, 235) 1.5px;
+}
+
+.nav_list > .btn-sign:hover {
+  background-color: rgb(244, 255, 255);
+}
+
+.nav_list_item {
+  cursor: pointer;
+}
