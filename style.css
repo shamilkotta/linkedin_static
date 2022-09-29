@@ -352,8 +352,10 @@ body {
 .testimonial {
   background-color: #f3f2f0;
   padding: 80px 100px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   box-sizing: border-box;
 }
 
@@ -406,3 +408,44 @@ body {
   width: 40%;
 }
 /************  testmonial ended  *******************/
+
+/************  dream  *******************/
+.dream {
+  background-color: #ffffff;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.dream_show {
+  width: 30%;
+  height: 100vh;
+  padding: 80px 0 80px 100px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.dream_show > iframe {
+  margin: 0 -200px 0 auto;
+  width: 700px;
+  height: 350px;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dream_content {
+  width: 70%;
+  padding: 80px 100px 80px 200px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #f4faff;
+  box-sizing: border-box;
+}
+
+.dream_content > h2 {
+  font-size: 2.4rem;
+  font-weight: lighter;
+  color: #b24020;
+}
+/************  dream ended  *******************/
