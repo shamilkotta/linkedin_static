@@ -88,7 +88,7 @@ body {
 .nav_list_item {
   cursor: pointer;
 }
-
+/************  Nav bar ended *******************/
 
 /************  Hero section *******************/
 .hero {
@@ -188,3 +188,43 @@ body {
 .form_login > a {
   text-decoration: none;
 }
+/************  Hero section ended *******************/
+
+/************  What to do  *******************/
+.what-to-do {
+  background-color: #f1ece5;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.what-to-do_head {
+  color: #b24020;
+  font-size: 2.4rem;
+  font-weight: 50;
+  line-height: 3rem;
+  width: 45%;
+}
+
+.what-to-do_cta {
+  width: 33%;
+}
+
+.what-to-do_btn {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.what-to-do_btn:hover {
+  box-shadow: 1px 5px 15px rgba(66, 66, 66, 0.384);
+}
+/************  What to do ended  *******************/
