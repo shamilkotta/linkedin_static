@@ -352,7 +352,7 @@ body {
 .testimonial {
   background-color: #f3f2f0;
   padding: 80px 100px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -418,7 +418,7 @@ body {
 
 .dream_show {
   width: 30%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 80px 0 80px 100px;
   display: flex;
   align-items: center;
@@ -449,3 +449,34 @@ body {
   color: #b24020;
 }
 /************  dream ended  *******************/
+
+/************  footer  *******************/
+footer {
+  padding: 50px 100px;
+  display: grid;
+  column-gap: 8px;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #f3f3f3;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > div > p {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+footer > div > a {
+  text-decoration: none;
+  color: rgb(116, 116, 116);
+  margin: 3px 0;
+}
+
+footer > div > a:hover {
+  color: rgb(76, 76, 235);
+}
+
+/************  footer ended  *******************/
