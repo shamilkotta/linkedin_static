@@ -32,8 +32,8 @@ body {
 .nav_list > .logo {
   font-family: "Montserrat", sans-serif;
   width: 50%;
-  font-size: 2rem;
-  color: rgb(76, 76, 235);
+  /* font-size: 1rem; */
+  /* color: rgb(76, 76, 235); */
   font-weight: 900;
 }
 
