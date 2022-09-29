@@ -230,7 +230,7 @@ body {
 /************  explore  *******************/
 .explore {
   background-color: #f3f2f0;
-  padding: 50px 100px;
+  padding: 80px 100px;
   display: flex;
   /* align-items: center; */
   box-sizing: border-box;
@@ -250,7 +250,8 @@ body {
 
 .explore_cta > p {
   color: rgb(80, 80, 80);
-  font-weight: 540;
+  font-weight: 550;
+  font-size: 0.9rem;
   margin-bottom: 17px;
 }
 
@@ -262,10 +263,10 @@ body {
 .explore_btn {
   text-decoration: none;
   width: fit-content;
-  margin: 5px;
+  margin: 4px 2px;
+  font-size: 1.2rem;
   color: rgb(0, 0, 0);
-  font-weight: 540;
-  padding: 12px 18px;
+  padding: 18px 20px;
   border-radius: 30px;
   border: solid rgb(0, 0, 0) 1.5px;
 }
@@ -274,3 +275,75 @@ body {
   background-color: rgba(82, 82, 82, 0.055);
 }
 /************  explore ended  *******************/
+
+/************  jobs  *******************/
+.jobs {
+  background-color: #ffffff;
+  padding: 80px 100px;
+  display: flex;
+  /* align-items: center; */
+  box-sizing: border-box;
+}
+
+.jobs_head {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 2.4rem;
+  font-weight: 50;
+  line-height: 3rem;
+  width: 42%;
+}
+
+.jobs_cta {
+  width: 52%;
+}
+
+.jobs_cta > p {
+  color: rgb(80, 80, 80);
+  font-weight: 550;
+  font-size: 0.9rem;
+  margin-bottom: 17px;
+}
+
+.jobs_cta > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jobs_btn {
+  text-decoration: none;
+  width: fit-content;
+  margin: 4px 2px;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  padding: 18px 20px;
+  border-radius: 30px;
+  border: solid rgb(0, 0, 0) 1.5px;
+}
+
+.jobs_btn:hover {
+  background-color: rgba(82, 82, 82, 0.055);
+}
+
+.jobs_more {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jobs_more > svg {
+  margin-top: 2px;
+}
+
+.jobs_more:hover {
+  background-color: rgb(233, 233, 233);
+}
+/************  jobs ended  *******************/
